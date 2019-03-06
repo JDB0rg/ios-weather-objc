@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		117EBBCA222F28FB00BD18EF /* JDBForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 117EBBC9222F28FB00BD18EF /* JDBForecast.m */; };
+		117EBBCD222F292800BD18EF /* JDBForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117EBBCC222F292800BD18EF /* JDBForecastViewController.m */; };
+		117EBBD0222F294400BD18EF /* JDBWeatherCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 117EBBCF222F294400BD18EF /* JDBWeatherCollectionViewCell.m */; };
+		117EBBD3222F332200BD18EF /* JDBForecastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 117EBBD2222F332200BD18EF /* JDBForecastController.m */; };
 		467D7F682163766F00E7FF73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7F672163766F00E7FF73 /* AppDelegate.m */; };
-		467D7F6B2163766F00E7FF73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7F6A2163766F00E7FF73 /* ViewController.m */; };
 		467D7F6E2163766F00E7FF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467D7F6C2163766F00E7FF73 /* Main.storyboard */; };
 		467D7F702163767000E7FF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467D7F6F2163767000E7FF73 /* Assets.xcassets */; };
 		467D7F732163767000E7FF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467D7F712163767000E7FF73 /* LaunchScreen.storyboard */; };
@@ -16,11 +19,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		117EBBC8222F28FB00BD18EF /* JDBForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBForecast.h; sourceTree = "<group>"; };
+		117EBBC9222F28FB00BD18EF /* JDBForecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBForecast.m; sourceTree = "<group>"; };
+		117EBBCB222F292800BD18EF /* JDBForecastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBForecastViewController.h; sourceTree = "<group>"; };
+		117EBBCC222F292800BD18EF /* JDBForecastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBForecastViewController.m; sourceTree = "<group>"; };
+		117EBBCE222F294400BD18EF /* JDBWeatherCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBWeatherCollectionViewCell.h; sourceTree = "<group>"; };
+		117EBBCF222F294400BD18EF /* JDBWeatherCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBWeatherCollectionViewCell.m; sourceTree = "<group>"; };
+		117EBBD1222F332200BD18EF /* JDBForecastController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDBForecastController.h; sourceTree = "<group>"; };
+		117EBBD2222F332200BD18EF /* JDBForecastController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDBForecastController.m; sourceTree = "<group>"; };
 		467D7F632163766F00E7FF73 /* WeatherObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		467D7F662163766F00E7FF73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		467D7F672163766F00E7FF73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		467D7F692163766F00E7FF73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		467D7F6A2163766F00E7FF73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		467D7F6D2163766F00E7FF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		467D7F6F2163767000E7FF73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		467D7F722163767000E7FF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +48,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		117EBBBE222F254D00BD18EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				467D7F662163766F00E7FF73 /* AppDelegate.h */,
+				467D7F672163766F00E7FF73 /* AppDelegate.m */,
+				467D7F6F2163767000E7FF73 /* Assets.xcassets */,
+				467D7F712163767000E7FF73 /* LaunchScreen.storyboard */,
+				467D7F742163767000E7FF73 /* Info.plist */,
+				467D7F752163767000E7FF73 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		117EBBBF222F256E00BD18EF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				467D7F6C2163766F00E7FF73 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		117EBBC0222F268D00BD18EF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				117EBBCB222F292800BD18EF /* JDBForecastViewController.h */,
+				117EBBCC222F292800BD18EF /* JDBForecastViewController.m */,
+				117EBBCE222F294400BD18EF /* JDBWeatherCollectionViewCell.h */,
+				117EBBCF222F294400BD18EF /* JDBWeatherCollectionViewCell.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		117EBBC7222F28D800BD18EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				117EBBC8222F28FB00BD18EF /* JDBForecast.h */,
+				117EBBC9222F28FB00BD18EF /* JDBForecast.m */,
+				117EBBD1222F332200BD18EF /* JDBForecastController.h */,
+				117EBBD2222F332200BD18EF /* JDBForecastController.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		467D7F5A2163766F00E7FF73 = {
 			isa = PBXGroup;
 			children = (
@@ -58,15 +110,10 @@
 		467D7F652163766F00E7FF73 /* WeatherObjC */ = {
 			isa = PBXGroup;
 			children = (
-				467D7F662163766F00E7FF73 /* AppDelegate.h */,
-				467D7F672163766F00E7FF73 /* AppDelegate.m */,
-				467D7F692163766F00E7FF73 /* ViewController.h */,
-				467D7F6A2163766F00E7FF73 /* ViewController.m */,
-				467D7F6C2163766F00E7FF73 /* Main.storyboard */,
-				467D7F6F2163767000E7FF73 /* Assets.xcassets */,
-				467D7F712163767000E7FF73 /* LaunchScreen.storyboard */,
-				467D7F742163767000E7FF73 /* Info.plist */,
-				467D7F752163767000E7FF73 /* main.m */,
+				117EBBC7222F28D800BD18EF /* Model */,
+				117EBBBF222F256E00BD18EF /* Storyboards */,
+				117EBBC0222F268D00BD18EF /* View Controllers */,
+				117EBBBE222F254D00BD18EF /* Resources */,
 			);
 			path = WeatherObjC;
 			sourceTree = "<group>";
@@ -141,9 +188,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				467D7F6B2163766F00E7FF73 /* ViewController.m in Sources */,
+				117EBBCD222F292800BD18EF /* JDBForecastViewController.m in Sources */,
+				117EBBD3222F332200BD18EF /* JDBForecastController.m in Sources */,
+				117EBBD0222F294400BD18EF /* JDBWeatherCollectionViewCell.m in Sources */,
 				467D7F762163767000E7FF73 /* main.m in Sources */,
 				467D7F682163766F00E7FF73 /* AppDelegate.m in Sources */,
+				117EBBCA222F28FB00BD18EF /* JDBForecast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WeatherObjC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WeatherObjC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WeatherObjC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WeatherObjC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
